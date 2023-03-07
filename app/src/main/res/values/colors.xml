@@ -7,4 +7,26 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--    Nord theme-->
+<!--    grey-->
+    <color name="polar_night_1">#2E3440</color>
+    <color name="polar_night_2">#3B4252</color>
+    <color name="polar_night_3">#434C5E</color>
+    <color name="polar_night_4">#4C566A</color>
+<!--    white-->
+    <color name="snow_storm_1">#D8DEE9</color>
+    <color name="snow_storm_2">#E5E9F0</color>
+    <color name="snow_storm_3">#ECEFF4</color>
+<!--    blue-->
+    <color name="frost_1">#5E81AC</color>
+    <color name="frost_2">#81A1C1</color>
+    <color name="frost_3">#88C0D0</color>
+    <color name="frost_4">#8FBCBB</color>
+<!--    additional-->
+    <color name="red">#BF616A</color>
+    <color name="orange">#D08770</color>
+    <color name="yellow">#EBCB8B</color>
+    <color name="green">#A3BE8C</color>
+    <color name="pink">#B48EAD</color>
 </resources>
