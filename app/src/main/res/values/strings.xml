@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Todoapp</string>
-    <string name="floatingactionbutton">FloatingActionButton</string>
     <string name="search_note">Search Note</string>
+    <string name="add_new_note">add new note</string>
 </resources>
