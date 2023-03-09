@@ -36,10 +36,11 @@ class NotesAdapter(private val context: Context, private val listener: NoteClick
 
         holder.notesLayout.setOnClickListener {
             listener.onItemClicked(notesList[holder.adapterPosition])
+
         }
-        holder.notesLayout.setOnClickListener {
-            listener.onItemLongClicked(notesList[holder.adapterPosition], holder.notesLayout)
-//            true
+        holder.notesLayout.setOnLongClickListener {
+            listener.onLongItemClicked(notesList[holder.adapterPosition], holder.notesLayout)
+            true
         }
     }
 
@@ -65,6 +66,7 @@ class NotesAdapter(private val context: Context, private val listener: NoteClick
             )
                 notesList.add(item)
         }
+        notifyDataSetChanged()
     }
 
     inner class NoteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -76,6 +78,6 @@ class NotesAdapter(private val context: Context, private val listener: NoteClick
 
     interface NoteClickListener {
         fun onItemClicked(note: Note)
-        fun onItemLongClicked(note: Note, cardView: CardView)
+        fun onLongItemClicked(note: Note, cardView: CardView)
     }
 }

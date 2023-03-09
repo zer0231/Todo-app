@@ -13,4 +13,8 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="ImageButton_style" parent="Widget.AppCompat.ImageButton">
+        <item name="android:tint">@color/polar_night_2</item>
+        <item name="background">@null</item>
+    </style>
 </resources>
